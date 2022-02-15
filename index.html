@@ -359,16 +359,5 @@
   </body>
 </html>
 <script type="text/javascript">
-  function mailer(){
-    window.location.href = "mailto:medbenhadj02@gmail.com";
-  }
-$( document ).ready(function() {
-    $("#age").text( calculateAge(new Date('1988-02-06T05:00:00')).toString()+' ans' );
-});
 
- function calculateAge(birthday) { // birthday is a date
-   var ageDifMs = Date.now() - birthday;
-   var ageDate = new Date(ageDifMs); // miliseconds from epoch
-   return Math.abs(ageDate.getUTCFullYear() - 1970);
- }
 </script>
